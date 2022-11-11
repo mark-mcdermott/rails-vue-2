@@ -15,6 +15,7 @@
   - `mkdir rails-vue`
   - `cd rails-vue`
   - `rails new backend --api`
+  - `cd backend`
   - in `backend/Gemfile` uncomment `gem "rack-cors"` on line 37
   - make `backend/config/initializers/cors.rb` look like this:
   ```
@@ -34,10 +35,11 @@
   ```
   - `bundle install`
   - `rails db:migrate db:seed`
-  - `rails -s`
+  - `rails s`
 - in a second terminal tab:
   - `vue create frontend`
     - choose `View 2` when it asks you
+  - `cd frontend`
   - `npm install --save axios`
   - make `frontend/src/main.js` look like this:
   ```
@@ -110,4 +112,5 @@
   }
   </style>
   ```
+  - `npm install`
   - `npm run serve`
