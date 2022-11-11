@@ -38,7 +38,7 @@
   - `rails s`
 - in a second terminal tab:
   - `vue create frontend`
-    - choose `View 2` when it asks you
+    - choose `Vue 2` when it asks you
   - `cd frontend`
   - `npm install --save axios`
   - make `frontend/src/main.js` look like this:
